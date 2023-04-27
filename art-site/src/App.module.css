@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+/* background-color: rgb(128, 128, 123); */
+}
+
+.Intro {
+  /* height: 230px; */
+  /* box-sizing: border-box; */
+  /* background-color: rgb(231, 231, 231); */
+  background-color: rgb(191,	192,	186);
+  padding-top: 50px;
+  border-bottom: 5px solid rgb(191,	192,	186);
+}
+
+.Logo {
+  height: 100px;
+  /* margin-bottom: 5px; */
+}
+
+.GradientFirst {
+  border-top: 5px solid rgb(191,	192,	186);
+  border-bottom: 5px solid rgb(104, 130, 103);
+  height: 100px;
+  background-image: linear-gradient(rgb(191,	192,	186), rgb(104, 130, 103));
+}
+
+.FirstContainer {
+  background-color: rgb(104, 130, 103);
+  border-top: 5px solid rgb(104, 130, 103);
+  border-bottom: 5px solid rgb(104, 130, 103);
+}
+
+.GradientSecond {
+  height: 100px;
+  background-image: linear-gradient(rgb(104, 130, 103), rgb(89, 112,	130));
+  border-top: 5px solid rgb(104, 130, 103);
+  border-bottom: 5px solid rgb(93,	111,	128);
+}
+
+.SecondContainer {
+  /* height: 150px; */
+  background-color: rgb(93,	111,	128);
+  border-top: 5px solid rgb(93,	111,	128);
+  border-bottom: 5px solid rgb(93,	111,	128);
+}
+
+.GradientThird {
+  height: 100px;
+  background-image: linear-gradient(rgb(89, 112,	130), rgb(210,	118,	165));
+  border-top: 5px solid rgb(93,	111,	128);
+  border-bottom: 5px solid rgb(210,	118,	165);
+}
+
+.ThirdContainer {
+  background-color: rgb(210,	118,	165);
+  border-top: 5px solid rgb(210,	118,	165);
+  border-bottom: 5px solid rgb(210,	118,	165);
+}
+
+.GradientFourth {
+  height: 100px;
+  background-image: linear-gradient(rgb(210,	118,	165), rgb(55,	119,	95));
+}
+
+.FourthContainer {
+  background-color: rgb(55,	119,	95);
+}
+
+.GradientFifth {
+  height: 100px;
+  background-image: linear-gradient(rgb(55,	119,	95), rgb(113,	139,	114));
+}
+
+.FifthContainer {
+  background-color: rgb(113,	139,	114);
+  padding-bottom: 40px;
+}
+
+@media (min-width: 820px) {
+  .FirstContainer, .SecondContainer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.GradientFirst, .GradientSecond, .GradientThird, .GradientFourth, .GradientFifth {
+  border: none;
+}
+/* 
+.FirstContainer, .SecondContainer, .ThirdContainer, .FourthContainer, .FifthContainer {
+  border: none;
+} */
+
+@media (min-width: 1020px) {
+  .Intro {
+		padding-top: 100px;
+	}
+  .Logo {
+    height: 200px;
+    padding-bottom: 10px;
+  }
+  .GradientFirst, .GradientSecond, .GradientThird, .GradientFourth, .GradientFifth {
+   height: 150px;
+  }
+  .FirstContainer, .SecondContainer, .ThirdContainer, .FourthContainer, .FifthContainer {
+    padding: 20px 0;
+  }
+}
+
+@media (min-width: 1400px) {
+  .Intro {
+		padding-top: 150px;
+	}
+  .Logo {
+    height: 250px;
+    padding-bottom: 50px;
+  }
+  .GradientFirst, .GradientSecond, .GradientThird, .GradientFourth, .GradientFifth {
+    height: 200px;
+  }
+  .FirstContainer, .SecondContainer, .ThirdContainer, .FourthContainer, .FifthContainer {
+    padding: 75px 0;
+  }
+}
+
+@media (min-width: 2100px) {
+  .Intro {
+		padding-top: 250px;
+	}
+  .Logo {
+    height: 400px;
+    padding-bottom: 100px;
+  }
+  .GradientFirst, .GradientSecond, .GradientThird, .GradientFourth, .GradientFifth {
+    height: 300px;
+  }
+  .FirstContainer, .SecondContainer, .ThirdContainer, .FourthContainer, .FifthContainer {
+    padding: 150px 0;
+  }
+}
+
+@media (min-width: 3000px) {
+  .Intro {
+		padding-top: 400px;
+	}
+  .Logo {
+    height: 650px;
+    padding-bottom: 200px;
+  }
+  .GradientFirst, .GradientSecond, .GradientThird, .GradientFourth, .GradientFifth {
+    height: 600px;
+  }
+  .FirstContainer, .SecondContainer, .ThirdContainer, .FourthContainer, .FifthContainer {
+    padding: 300px 0;
+  }
+}
